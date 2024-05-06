@@ -17,7 +17,7 @@ const Hero: React.FC<HeroProps> = ({ /* Destructure props here */ }) => {
                 />
             </video>
             <TitleSub 
-                title={<>The world's first<br/> platform for Tokenizing<br/> AI blockchain projects</>} 
+                title={<>The world&apos;s first<br/> platform for Tokenizing<br/> AI blockchain projects</>} 
                 subtitle={<>Hold the Creon Pass NFT and earn passive income from AI Tools</>}
                 divClass="pt-vl pl-40 relative w-89%" 
                 h1Class=" font-BigTitles text-fs-52 leading-lh-110 uppercase" 
