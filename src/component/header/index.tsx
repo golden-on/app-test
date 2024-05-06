@@ -17,11 +17,11 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
                 priority
                 className='h-fit'
             />
-            <menu className='text-fs-18 flex justify-between w-47p leading-10'>
+            <menu className='text-fs-18 flex justify-between w-53% leading-10 font-SubTitles'>
                 <p>Creon Pass</p>
-                <p>Token</p>
-                <p>AI Revenue</p>
-                <p>AI Launchpad</p>
+                <p className="soon">Token</p>
+                <p className="soon">AI Revenue</p>
+                <p className="soon">AI Launchpad</p>
                 <Button classProps='bg-transparent border-2 border-white w-1/5 rounded-md' text='Connect'/>
             </menu>
         </div>

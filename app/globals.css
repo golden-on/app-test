@@ -87,4 +87,21 @@ body {
   .black-linear {
     background: linear-gradient(181deg, rgb(3 3 3) 0%, rgb(0 0 0 / 32%) 92%)
   }
+
+    .soon {
+      position: relative;
+  }
+
+  .soon::before {
+    content: 'SOON';
+    position: absolute;
+    bottom: 20px;
+    right: -45px;
+    padding: 2px 5px;
+    background-color: #000000;
+    border-radius: 15px;
+    color: #AB23FF;
+    font-size: 10px;
+    line-height: 10px;
+}
 }
