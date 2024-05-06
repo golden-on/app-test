@@ -7,6 +7,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ /* Destructure props here */ }) => {
     return (
+        // eslint-disable-next-line react/no-unescaped-entities
         <section className="">
             <video autoPlay muted loop
                 className="absolute"
