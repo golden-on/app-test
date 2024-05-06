@@ -10,7 +10,7 @@ const CardSection: React.FC<Props> = ({}) => {
         <section className='pt-40 flex justify-center gap-x-6'>
             <Card 
                 title={<>TOKEN</>}  
-                imgSrc={'/SVGs/image.svg'} 
+                imgSrc={'/SVGs/hand.svg'} 
                 descr={
                     <>
                         Set to debut in the latter half of 2024, the CREON<br/>
