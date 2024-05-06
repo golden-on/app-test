@@ -15,7 +15,7 @@ interface TitleSubProps {
 
 const Card: React.FC<TitleSubProps> = ({title, descr, subtitle, imgSrc, isEdgeCard }) => {
     return (
-        <div className='bg-cards rounded-md w-1/4'>
+        <div className='bg-cards rounded-md w-1/4 font-SubTitles coming_soon'>
             <TitleSub 
                 title={title} 
                 subtitle={subtitle}
