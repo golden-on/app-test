@@ -28,7 +28,7 @@ const CardSection: React.FC<Props> = ({}) => {
 
             <Card 
                 title={<>REVENUE</>}  
-                imgSrc={'/SVGs/image1.svg'} 
+                imgSrc={'/SVGs/crypto.svg'} 
                 descr={
                     <>
                         CREON NFT and token holders are integral<br/>
@@ -44,7 +44,7 @@ const CardSection: React.FC<Props> = ({}) => {
 
             <Card 
                 title={<>TOKEN</>}  
-                imgSrc={'/SVGs/image.svg'} 
+                imgSrc={'/SVGs/IA.svg'} 
                 descr={
                     <>
                         Set to debut in the latter half of 2024, the CREON<br/>
