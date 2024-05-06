@@ -17,7 +17,7 @@ const CreonSection: React.FC<Props> = ({}) => {
             />
             <div className='flex items-center'>
                 <video 
-                // autoPlay muted loop
+                    autoPlay muted loop
                     className="w-947px h-485px p-72px"
                     width={947}
                     height={485}

@@ -29,7 +29,7 @@ const CallToAction: React.FC<CallToActionProps> = ({}) => {
             </div>
             <div className='w-69%'>
                 <video 
-                // autoPlay muted loop
+                    autoPlay muted loop
                     // className="absolute"
                 >
                     <source 
