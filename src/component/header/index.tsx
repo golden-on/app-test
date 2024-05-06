@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
                 priority
                 className='h-fit'
             />
-            <menu className='text-fs-18 flex justify-between w-53% leading-10 font-SubTitles'>
+            <menu className='text-fs-18 flex justify-between w-53% leading-10'>
                 <p>Creon Pass</p>
                 <p className="soon">Token</p>
                 <p className="soon">AI Revenue</p>
