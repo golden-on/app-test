@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: 'MonumentExtended';
+    font-size: 68px;
+    line-height: 110%;
+    font-style: normal;
+    font-weight:400;
+    src: url(../public/MonumentExtended-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'SatoshiBold';
+    font-style: normal;
+    font-weight:400;
+    src: url(../public/Satoshi-Bold.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'SatoshiMedium';
+    font-style: normal;
+    font-weight:400;
+    src: url(../public/Satoshi-Medium.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'SatoshiRegular';
+    font-style: normal;
+    font-weight:400;
+    src: url(../public/Satoshi-Regular.woff2) format('woff2');
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,6 +46,7 @@
 }
 
 body {
+  font-family: 'MonumentExtended', sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -29,5 +59,32 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer components {
+  .linear {
+    background: -webkit-linear-gradient(358deg, rgba(61, 139, 255, 1) 0%, rgba(171, 35, 255, 1) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .border-linear {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(88deg, rgba(61, 139, 255, 1) 0%, rgba(171, 35, 255, 1) 50%);
+    border-left: 0;
+    border-right: 0;
+    width: 45%;
+    padding: 4px 0;
+    margin-top: 30px;
+  }
+  .linear-button {
+    width: 63%;
+    padding: 5px 0;
+    background: -webkit-linear-gradient(336deg, rgba(61, 139, 255, 1) 0%, rgba(171, 35, 255, 1) 90%);
+  }
+  .black-linear {
+    background: linear-gradient(181deg, rgb(3 3 3) 0%, rgb(0 0 0 / 32%) 92%)
   }
 }
